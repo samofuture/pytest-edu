@@ -7,7 +7,7 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="lotto_analysis",  
+    name="lotto_analysis",
     version="0.0.0",
     description="A sample Python project",  # Optional
     long_description=long_description,  # Optional
@@ -18,7 +18,7 @@ setup(
     author="Sam Crane",  # Optional
 
     # author_email="author@example.com",  # Optional
-    
+
     # When your source code is in a subdirectory under the project root, e.g.
     # `src/`, it is necessary to specify the `package_dir` argument.
     package_dir={"": "src"},  # Optional
@@ -44,5 +44,5 @@ setup(
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/discussions/install-requires-vs-requirements/
     install_requires=["pandas"],  # Optional
-    
+
 )
